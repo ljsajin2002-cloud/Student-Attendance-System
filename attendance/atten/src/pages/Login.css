@@ -1,0 +1,59 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1f2937, #505f79);
+}
+
+.login-box {
+  background: white;
+  padding: 40px;
+  width: 320px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.login-box h2 {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.login-btn.admin {
+  background-color: #2a5298;
+}
+
+.login-btn.teacher {
+  background-color: #28a745;
+}
+
+.login-btn:hover {
+  opacity: 0.9;
+  
+}
+.selected-role {
+  margin-bottom: 10px;
+  color: #555;
+  font-size: 14px;
+}
+
+.back-btn {
+  margin-top: 10px;
+  background: transparent;
+  border: none;
+  color: #2a5298;
+  cursor: pointer;
+}
+

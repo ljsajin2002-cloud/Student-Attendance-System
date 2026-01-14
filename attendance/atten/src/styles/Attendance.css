@@ -1,0 +1,57 @@
+/* Attendance page container */
+.attendance-container {
+  padding: 20px;
+}
+
+/* Page title */
+.attendance-container h2 {
+  margin-bottom: 15px;
+}
+
+/* Date picker */
+.attendance-date {
+  margin-bottom: 20px;
+  padding: 6px 10px;
+}
+
+/* Table styling */
+.attendance-table {
+  width: 100%;            /* 👈 EXPANDS TABLE */
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.attendance-table th,
+.attendance-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+.attendance-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+/* Buttons */
+.present-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.absent-btn {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.present-btn:hover,
+.absent-btn:hover {
+  opacity: 0.85;
+}
